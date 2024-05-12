@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My New Big Bang Theory</title>
+    <link rel="stylesheet" href="1newrajesh.css">
+</head>
+<body>
+    <div id="home" class="container">
+        <div class="bar">
+            <img src="the-big-bang-theory-logo-png-transparent.png" class="logo">
+            
+                <nav>
+                    <ul class="sidebar"> 
+                    <li onclick=hidemenu()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#cast">Cast and Characters</a></li>
+                    <li><a href="#seasons">Seasons</a></li>
+                    <li><a href="#photos">Photos</a></li>
+                    <li><a href="#guests">Guests</a></li>
+                    <li><a href="#details">Details</a></li>
+                    </ul> 
+            
+                   <ul> 
+                    <li class="hideMobile"><a href="#home">Home</a></li>
+                    <li class="hideMobile"><a href="#cast">Cast and Characters</a></li>
+                    <li class="hideMobile"><a href="#seasons">Seasons</a></li>
+                    <li class="hideMobile"><a href="#photos">Photos</a></li>
+                    <li class="hideMobile"><a href="#guests">Guests</a></li>
+                    <li class="hideMobile"><a href="#details">Details</a></li>
+                    <li class="buttonMenu" onclick= sidemenu()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+                    </ul>
+
+                </nav>
+        </div>
+                <div class="row">
+                    <div class="col">
+                        <h1>The Big Bang Theory</h1>
+                          <p>is a popular American sitcom created by Chuck Lorre and Bill Prady. The series primarily revolves around the lives of four socially awkward scientists - Sheldon Cooper, Leonard Hofstadter, Howard Wolowitz, and Rajesh Koothrappali - and their interactions with their neighbor, aspiring actress Penny. The show explores their friendships, romantic relationships, and their humorous misadventures in both their personal and professional lives. It often incorporates elements of geek culture, science, and pop culture references, making it appealing to a wide audience. </p>
+                    </div>
+                </div>
+
+            <div id="cast" class="page2">
+
+                <div class="row2">
+                    <div class="col2">
+                        <h2>Top Cast</h2>
+                    </div>
+                </div>
+
+                <div class="cards">
+                    <div style="background-image: url('leonard.jpeg');" onmouseover="leonerd()"></div>
+                    <div style="background-image: url('sheldon.jpg');" onmouseover="sheldon()"></div>
+                    <div style="background-image: url('OIP (1).jpg');" onmouseover="howard()"></div>
+                    <div style="background-image: url('OIP (2).jpg');" onmouseover="amy()"></div>
+                    <div style="background-image: url('OIP.jpg');" onmouseover="penny()"></div>
+                    <div style="background-image: url('R (1).jpg');" onmouseover="playHoverSound()"></div>
+                    <div style="background-image: url('R.jpg');" onmouseover="raj()"></div>
+                </div>
+            </div>
+
+
+    
+            <div id="seasons" class="page3">
+                <div class="posters1">      
+                    <div style="background-image: url('New folder/1.jpg');"> </div>
+                    <div style="background-image: url('New folder/2.jpg');"></div>
+                    <div style="background-image: url('New folder/3.jpg');"></div>
+                    <div style="background-image: url('New folder/4.jpg');"></div>
+                    <div style="background-image: url('New folder/5.jpg');"></div>
+                    <div style="background-image: url('New folder/6.jpg');"></div>
+                </div>
+                
+                <div class="posters2">
+                    <div style="background-image: url('New folder/7.jpg');"></div>
+                    <div style="background-image: url('New folder/8.jpg');"></div>
+                    <div style="background-image: url('New folder/9.jpg');"></div>
+                    <div style="background-image: url('New folder/10.jpg');"></div>
+                    <div style="background-image: url('New folder/11.jpg');"></div>
+                    <div style="background-image: url('New folder/12.jpg');"></div>
+                </div>
+
+            </div>
+    </div>
+    </div>
+    
+
+<script> 
+function sidemenu(){
+    const sidebar = document.querySelector('.sidebar')
+    sidebar.style.display = 'flex'
+}
+function hidemenu(){
+    const sidebar = document.querySelector('.sidebar')
+    sidebar.style.display = 'none'
+}
+</script>
+
+</body>
+</html>
